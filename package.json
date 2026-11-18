@@ -1,0 +1,14 @@
+{
+  "name": "sahaaya-inclusion-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SAHAAYA: an outcome-financed platform for sustainable digital financial inclusion, measuring the moment a household no longer needs help.",
+  "scripts": {
+    "bundle": "python3 build.py",
+    "test": "node test/engine.test.js",
+    "test:e2e": "python3 test/e2e.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
